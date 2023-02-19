@@ -77,3 +77,10 @@ $!+Down::Send {Ctrl Down}{shift down}{End}{shift up}{Ctrl Up}
 #BS::Send {LCtrl down}{BS}{LCtrl up}
 
 $#Space::Send {Ctrl Down}{LWin Down}{Space}{LWin Up}{Ctrl Up}
+
+; disable alt window menu control
+~LAlt::Send {Blind}{vkE8}
+
+; disable window minimization control
+#Up::return
+#Down::return
