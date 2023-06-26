@@ -12,4 +12,4 @@
 - Disable Windows Accessibility Options, as those may conflict aswell
 - Use [Winearo Tweaker](https://winaerotweaker.com/) to get rid of some Windows-related limitations.
 - Debug any non-functional binding using F1
-- Disable Mac Hotkeys in certain applications like games, as those may require Windows shortcuts
+- Disable Mac Hotkeys in certain applications like games, as those may require Windows shortcuts. You may toggle them using Shift+Insert
