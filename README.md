@@ -4,7 +4,7 @@
 - [AutoHotkey](https://www.autohotkey.com/) Version 1.1
 
 ## Getting Started
-- Drop the `mac.ahk` script into your 'C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup'
+- Drop the `mac.ahk` script into your ```C:\Users\<username>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup```
 - manually start the script by executing it using AutoHotkey
 
 ## Suggestions
