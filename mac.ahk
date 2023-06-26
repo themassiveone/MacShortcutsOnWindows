@@ -1,4 +1,4 @@
-﻿; I wanted to find the original author and feature him. I could not find the original gist repository though :/
+; I wanted to find the original author and feature him. I could not find the original gist repository though :/
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -12,7 +12,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; You need to disable "Between input languages" shotcut from Control Panel\Clock, Language, and Region\Language\Advanced settings > Change lanugage bar hot keys
 
+
+; debug
+F1::KeyHistory
+
 ; Universal shotcuts
+
+
 
 
 $!x::Send ^x
@@ -29,6 +35,21 @@ $!q::Send !{f4}
 $!r::Send ^{f5}
 $!m::Send {LWin Down}{Down}{LWin Up}
 $!`::Send {Alt Down}{Shift Down}{Tab}{Shift Up}
+
+; obsidian ones
+$!i::Send ^i
+$!o::Send ^o
+
+;Vscode-like
+$!+p::Send ^+p ;actions
+$!p::Send ^p ;files
+$!+o::Send ^+o ;files
+
+;Notion
+$!+e::Send ^+e ; math inline equation
+
+; Windows Snipping Tool
+$!+4::Send #+s ; capture
 
 ; Quick Switch Tab shotcuts
 
@@ -84,3 +105,7 @@ $#Space::Send {Ctrl Down}{LWin Down}{Space}{LWin Up}{Ctrl Up}
 ; disable window minimization control
 #Up::return
 #Down::return
+
+
++Insert::Suspend
+~LWin::Send {Blind}{vkE8}
